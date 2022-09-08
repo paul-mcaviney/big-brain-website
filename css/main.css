@@ -31,6 +31,11 @@
     letter-spacing: 1px; }
   .tf-header .tf-hh-col {
     padding-right: 0.5rem !important; }
+    .btn-primary {
+      color: #000;
+      background-color: #25b4c9;
+      border-color: #25b4c9;
+    }
   @media (max-width: 1199.98px) {
     .tf-header h2 {
       text-transform: uppercase;
@@ -48,12 +53,18 @@
         padding-top: 0.5rem !important;
         padding-bottom: 0.5rem !important;
       }
+      .navbar-brand {
+        margin-left: -1rem;
+      }
       #navbar {
         display: none;
       }
       .container {
         padding-right: 20px;
         padding-left: 20px;
+      }
+      .mt-1 {
+        margin-bottom: 1rem;
       }
     .tf-header #navbar {
       margin: 0 auto; }
