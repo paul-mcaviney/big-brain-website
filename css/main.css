@@ -22,7 +22,8 @@
   .tf-header .nav-link {
     color: rgba(255, 255, 255, 0.75) !important; }
     .tf-header .nav-link:hover {
-      color: white !important; }
+      color: white !important;
+    }
   .tf-header h2 {
     text-transform: uppercase;
     margin-top: 4rem;
@@ -35,6 +36,10 @@
       color: #000;
       background-color: #25b4c9;
       border-color: #25b4c9;
+    }
+    .btn-primary:hover {
+      background-color: #249aac;
+      border-color: #208291;
     }
   @media (max-width: 1199.98px) {
     .tf-header h2 {
@@ -74,6 +79,19 @@
   @media (max-width: 767.98px) {
     .tf-header .tf-hh-col {
       padding-right: 0 !important; } }
+
+/* Why Section */
+.why-section {
+  padding: 2rem;
+  /* padding-bottom: 2rem; */
+  color: #383838;
+  text-align: center;
+}
+
+.why-explanation {
+  margin: 0 auto;
+  max-width: 900px;
+}
 
 /* Work Section */
 .tf-work-section h2.h3 {
